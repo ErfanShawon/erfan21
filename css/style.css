@@ -1,0 +1,401 @@
+/* Build up CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style:none ;
+}
+
+.button{
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 800;
+color: 0#1016;
+background-color: #cfc91d;
+padding: 19px 43px;
+display: inline-block;
+border: none;
+}
+.headingtag h2{
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+.headingtag p{
+    color: #7e8287;
+    margin: 20px 0;
+    line-height: 40px;
+}
+.sectiontitle p{
+    color: #7e8287;
+}
+.sectiontitle p span{
+    font-size: 23px;
+    font-weight: 800;
+
+}
+
+.card span{
+    color: #02918c;
+    font-size: 30px;
+}
+
+.card h4{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 25px 0px;
+}
+.card p{
+    color: #7e8287;
+    font-size: 11px;
+}
+/* End of Build up */
+
+/*Nav Bar*/
+
+nav .logo{
+    width: 30%;
+}
+.aling-center{
+    align-items: center;
+}
+
+nav .menubar{
+    width: 70%;
+    text-align: right;
+}
+
+nav{
+    background-color: #02918b;
+}
+
+nav .menubar ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav .menubar ul li a{
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+nav ul li .submenu li{
+    display: block;
+}
+
+nav ul li .submenu{
+    position: absolute;
+    background-color: #02918b;
+    opacity: 0;
+    visibility: hidden;
+    top: 200px;
+}
+    
+
+nav ul li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    top: 100%;
+    
+}
+nav ul li .submenu li a{
+    padding: 08px 10px ;
+    display: block;
+    text-align: center;
+}
+/*Nav bar end*/
+
+/*Banner part*/
+
+#banner{
+    background-image: url(../css/bgImage.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+
+}
+#banner .banner-part{
+    width: 100%;
+}
+
+#banner .banner-part h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner .banner-part h1{
+    font-size: 65px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .row{
+    height: 100%;
+}
+
+#banner .banner-part img{
+    margin: 50px 0;
+}
+/*Banner part end*/
+
+/*About Part*/
+#about{
+    padding: 98px 0;
+    text-align: center;
+}
+#about .aboutcards{
+    margin-top: 80px;
+}
+#about .aboutcards .card{
+    width: 25%;
+    border-right: 1px solid #7e8287;
+    padding: 34px 0;
+}
+#about .aboutcards .card :nth-child(4){
+    border: none;
+}
+/*About Part End*/
+
+/*Service part*/
+#service-part{
+    background-image:url(./aboutbg.jpg) ;
+   
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+#service-part .serviceheading h2{
+
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+    padding-top: 70px;
+}
+#service-part .serviceheading p{
+    
+    color: #7e8287;
+    margin: 20px 0;
+    line-height: 40px;
+}
+#service-part .loremtitle p{
+    color: #7e8287;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+#service-part .all-in-one .icon{
+    width: 50%;
+    padding: 30px;
+    margin: 20px 20px;
+}
+
+
+#service-part .all-in-one{
+    margin-top: 56px;
+   
+}
+
+#service-part .row h4{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 20px;
+   
+    
+}
+#service-part .row p{
+    color: #7e8287;
+    font-size: 11px;  
+    line-height: 20px;
+    margin-top: 15px;
+    
+}
+#service-part  .row .icon{
+   margin-top: 20px;
+   width: 50%;
+  
+}
+
+.icon span{
+    color: #02918c;
+    font-size: 30px;
+    
+}
+.icon2 span{
+    color: #02918c;
+    font-size: 30px;
+   
+}
+#service-part  .row .icon2{
+    margin-top: 20px;
+    width: 50%;
+}
+#service-part  .row .icon3{
+    margin-top: 20px;
+    width: 50%;
+}
+.icon3 span{
+    color: #02918c;
+    font-size: 30px;
+}
+#service-part  .row .icon4{
+    margin-top: 20px;
+    width: 50%;  
+}   
+.icon4 span{
+    color: #02918c;
+    font-size: 30px;
+}
+/*service part end*/
+
+/*mywork part start*/
+#mywork .myworktitle h2{
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+#mywork .myworktitle p{
+    color: #7e8287;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+#mywork .lorempart p{
+    color: #7e8287;
+    margin: 20px 0;
+    line-height: 40px; 
+    text-align: center;
+    margin-bottom: 80px;
+}
+#mywork .workcard img{
+    width: 100%;
+    height: 230px;
+  display: block;
+   }
+#mywork .workcard{
+    position: relative;
+    width: 25%;
+    margin-top: 80px
+    
+   }
+   #mywork .row .workcard{
+    margin: 0%;
+   }
+   #mywork .workcard .overlay{
+    background-color: rgba(2, 145, 140 , 0.75);
+    position: absolute;
+    top: 0;
+    inset: 20px 28px;  
+    text-align: center;
+    color: azure;
+    padding-top: 40px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 70px;
+    transition: 0.5s;
+   }
+   #mywork .workcard:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+   }
+   /*mywork part end*/
+
+   /*contract part start*/
+     #contractid .con-me h2{
+        font-weight: 800;
+        color: #02918c;
+        text-transform: uppercase;
+        font-size: 46px;
+        padding-top: 70px;
+        text-align: center;
+     }
+     #contractid .con-me p{
+        color: #7e8287;
+    font-size: 11px;  
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: center;
+     }
+     #contractid .contractus p{
+        color: #7e8287;
+        margin: 20px 0;
+        line-height: 40px;  
+        text-align: center;
+     }
+     
+   /*contract part end*/
+   
+   /*form part start*/
+    #contractpart {
+        background-color: #0b0b0b;
+        padding: 70px 0;
+        text-align: center;
+
+    }
+
+    #contractpart .forminput{
+        width: 638px;
+        margin: 32px auto;
+
+    }
+    #contractpart .forminput input{
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        background-color: transparent;
+        color: white;
+        border: none;
+        border-bottom: 1px solid white;
+        
+    }
+   #contractpart .forminput:nth-child(1){
+    margin-top: 0;
+   }
+
+    #contractpart .forminput:nth-child(3){
+   
+        width: 918px;
+    }
+    #contractpart .forminput:nth-child(4){
+        width: 918px;
+    }
+     #last .lastpart{
+        text-align: center;
+        background-color: black;
+        color: #7e8287;
+        padding: 20px;
+     }
+   /*form part start*/
+   
